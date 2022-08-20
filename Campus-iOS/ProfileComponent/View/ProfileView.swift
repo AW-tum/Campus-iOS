@@ -20,8 +20,10 @@ struct ProfileView: View {
                     HStack(spacing: 24) {
                         self.model.profile.profileImage
                             .resizable()
-                            .foregroundColor(Color(.secondaryLabel))
+                            .clipShape(Circle())
+                            .aspectRatio(contentMode: .fill)
                             .frame(width: 75, height: 75)
+                            .foregroundColor(Color(.secondaryLabel))
                         
                         VStack(alignment: .leading) {
                             Text(self.model.profile.profile?.fullName ?? "Not logged in")
@@ -112,6 +114,34 @@ struct ProfileView: View {
                         Spacer()
                     }
                 }
+                Section() {
+                    var i = 0
+                    Button(action: {
+                        i += 1
+                        if i == 5 {
+                            i = 0
+                            self.showActionSheet = true
+                        }
+                    }) {
+                        HStack {
+                            Spacer()
+                            Text("Version 4.0").foregroundColor(colorScheme == .dark ? .init(UIColor.lightGray) : .init(UIColor.darkGray))
+                            Spacer()
+                        }
+                    }
+                }
+                .actionSheet(isPresented: self.$showActionSheet) {
+                    //ActionSheet(title: Text("Choose Speaker"), buttons: self.actionSheetButtons)
+                    ActionSheet(title: Text("Change App icon"), message: Text("Select a new design"), buttons: [
+                        .default(Text("Default 🎓")) { UIApplication.shared.setAlternateIconName(nil) },
+                        .default(Text("Inverted 🔄")) { UIApplication.shared.setAlternateIconName("inverted") },
+                        .default(Text("Pride 🏳️‍🌈")) { UIApplication.shared.setAlternateIconName("pride") },
+                        .default(Text("3D 📐")) { UIApplication.shared.setAlternateIconName("3D") },
+                        .default(Text("Outline 🖍")) { UIApplication.shared.setAlternateIconName("outline") },
+                        .cancel()
+                    ])
+                }
+                .listRowBackground(Color.clear)
             }
             .sheet(isPresented: $model.isLoginSheetPresented) {
                 NavigationView {

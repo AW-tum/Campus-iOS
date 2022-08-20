@@ -57,6 +57,7 @@
 "Movies" = "Movies";
 "Profile" = "Profile";
 "Places" = "Places";
+"My Widgets" = "My Widgets";
 
 "animation showing the token activation" = "animation showing the token activation";
 "First 2 letters of TUM ID" = "First 2 letters of TUM ID";
@@ -145,6 +146,18 @@
 "Occupied until" = "Occupied until";
 "Unknown" = "Unknown";
 
+//Roomfinder
+"Roomfinder" = "Roomfinder";
+"Building" = "Building";
+"Room" = "Room";
+"Detail" = "Detail";
+"Obergeschoß" = "Obergeschoß";
+
+//Map
+"Search ..." = "Search ...";
+
+//Movies
+"No more movies this semester 😢\nGet excited for the next season!" = "No more movies this semester 😢\nGet excited for the next season!";
 
 // Error handeling
 "The device appears to be offline, please check the internet connectivity" = "The device appears to be offline, please check the internet connectivity";

@@ -59,6 +59,7 @@
 "Profile" = "Profil";
 "Done" = "Fertig";
 "Places" = "Orte";
+"My Widgets" = "Meine Widgets";
 
 // Login.storybroad
 
@@ -141,6 +142,18 @@
 "Occupied until" = "Besetzt bis";
 "Unknown" = "Unbekannt";
 
+//Roomfinder
+"Roomfinder" = "Raum Finder";
+"Building" = "Gebäude";
+"Room" = "Raum";
+"Detail" = "Detail";
+"Floor" = "Obergeschoß";
+
+//Map
+"Search ..." = "Suchen ...";
+
+//Movies
+"No more movies this semester 😢\nGet excited for the next season!" = "Keine Filme mehr dieses Semester 😢\nMacht euch ready für die nächste Saison!";
 
 // Error handeling
 "The device appears to be offline, please check the internet connectivity" = "Dieses Gerät scheint nicht mit dem Internet verbunden zu sein, Verbindung bitte überprüfen";
