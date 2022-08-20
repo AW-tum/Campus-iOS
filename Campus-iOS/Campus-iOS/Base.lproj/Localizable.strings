@@ -1,0 +1,172 @@
+/* 
+  Localizable.strings
+  TUM Campus App
+
+  Created by Tim Gymnich on 24.5.20.
+  Copyright © 2020 TUM. All rights reserved.
+*/
+
+"No Permission" = "No Permission";
+"Missing token" = "Missing token";
+"Invalid token" = "Invalid token";
+"Token not confirmed" = "Token not confirmed";
+"Unknown error" = "Unknown error";
+"Make sure to enable the right permissions for your token." = "Make sure to enable the right permissions for your token.";
+"Go to TUMOnline and confirm the token" = "Go to TUMOnline and confirm the token";
+"Try creating a new token." = "Try creating a new token.";
+"Continue" = "Continue";
+"Login Error" = "Login Error";
+"OK" = "OK";
+"Authorization Error" = "Authorization Error";
+"n/a" = "n/a";
+"Calendar" = "Calendar";
+"Events" = "Events";
+"No Calendar Events" = "No Calendar Events";
+"Lectures" = "Lectures";
+"No Lectures" = "No Lectures";
+"Grades" = "Grades";
+"No Grades" = "No Grades";
+"Tuition fees" = "Tuition fees";
+"Amount" = "Amount";
+"Deadline" = "Deadline";
+"Cafeterias" = "Cafeterias";
+"Not logged in" = "Not logged in";
+"Sign In" = "Sign In";
+"Sign Out" = "Sign Out";
+"Study Rooms" = "Study Rooms";
+"No Study Rooms" = "No Study Rooms";
+"Free" = "Free";
+"Occupied until" = "Occupied until";
+"Unknown" = "Unknown";
+"Useful Links" = "Useful Links";
+"No Links" = "No Links";
+"Cafeteria Map"  = "Cafeteria Map";
+"Search Rooms" = "Search Rooms";
+"Room Finder" = "Room Finder";
+"Unable to find room" = "Unable to find room '%@'";
+"No Menu" = "No Menu";
+"List View" = "List View";
+"Jump to Today" = "Jump to Today";
+"GENERAL" = "GENERAL";
+"GET IN CONTACT" = "GET IN CONTACT";
+"Use build-in Web View" = "Use build-in Web View";
+"Join Beta" = "Join Beta";
+"TUM Dev on Github" = "TUM Dev on Github";
+"Cancel" = "Cancel";
+"News" = "News";
+"Movies" = "Movies";
+"Profile" = "Profile";
+"Places" = "Places";
+
+"animation showing the token activation" = "animation showing the token activation";
+"First 2 letters of TUM ID" = "First 2 letters of TUM ID";
+"2 numbers in the middle of TUM ID" = "2 numbers in the middle of TUM ID";
+"Last 3 letters of TUM ID" = "Last 3 letters of TUM ID";
+
+
+// Login.storybroad
+
+"Welcome to TUM Campus App" = "Welcome to TUM Campus App";
+"Enter your TUM ID to get started" = "Enter your TUM ID to get started";
+"go" = "go";
+"42" = "42";
+"tum" = "tum";
+"Continue 🎓" = "Continue 🎓";
+"Continue without TUM ID" = "Continue without TUM ID";
+"Log in on [TUMonline](https://campus.tum.de)" = "Log in on [TUMonline](https://campus.tum.de)";
+"Select **Token-Management**" = "Select **Token-Management**";
+"Activate the newly created token and enable your desired permissions" = "Activate the newly created token and enable your desired permissions";
+"Contact Support" = "Contact Support";
+"Check Authorization" = "Check Authorization";
+"1" = "1";
+"2" = "2";
+"3" = "3";
+"Authorize Token" = "Authorize Token";
+"Are you sure?" = "Are you sure?";
+"Leaving now will invalidate the current token!" = "Leaving now will invalidate the current token!";
+"Leave" = "Leave";
+
+// CalendarView
+"Day" = "Day";
+"Week" = "Week";
+"Month" = "Month";
+"Year" = "Year";
+"Today" = "Today";
+"This Meeting" = "This Meeting";
+
+// PersonSearch
+"Unable to find person" = "Unable to find person";
+"Person Search" = "Person Search";
+
+// Tuition
+"Open Amount" = "Open Amount";
+
+// LectureSearch
+"Lecture Search" = "Lecture Search";
+"Unable to find lecture" = "Unable to find lecture";
+"Choose Speaker" = "Choose Speaker";
+
+// Grades
+"Fetching Grades" = "Fetching Grades";
+"Error while fetching Grades" = "Error while fetching Grades";
+"Retry" = "Retry";
+"Cancel" = "Cancel";
+"Written" = "Written";
+"Graded" = "Graded";
+"Written/Oral" = "Written/Oral";
+"Oral" = "Oral";
+"Unknown" = "Unknown";
+"Wintersemester" = "Wintersemester";
+"Summersemester" = "Summersemester";
+
+// Lectures
+"Fetching details of lecture" = "Fetching details of lecture";
+"Error while fetching details of lecture" = "Error while fetching details of lecture";
+"Fetching Lectures" = "Fetching Lectures";
+"Error while fetching Lectures" = "Error while fetching Lectures";
+"Basic lecture information" = "Basic lecture information";
+"Detailed lecture information" = "Detailed lecture information";
+"Course Contents" = "Course Contents";
+"Course Objective" = "Course Objective";
+"Note" = "Note";
+"Lecture links" = "Lecture links";
+"Curriculum" = "Curriculum";
+"Dates" = "Dates";
+"Exam" = "Exam";
+"This Meeting" = "This Meeting";
+"Lecture" = "Lecture";
+"Exercise" = "Exercise";
+"Practical course" = "Practical course";
+"Seminar" = "Seminar";
+"Lecture with integrated Exercises" = "Lecture with integrated Exercises";
+
+// StudyRoom
+"Free" = "Free";
+"Occupied until" = "Occupied until";
+"Unknown" = "Unknown";
+
+//Roomfinder
+"Roomfinder" = "Roomfinder";
+"Building" = "Building";
+"Room" = "Room";
+"Detail" = "Detail";
+"Obergeschoß" = "Obergeschoß";
+
+//Map
+"Search ..." = "Search ...";
+
+//Movies
+"No more movies this semester 😢\nGet excited for the next season!" = "No more movies this semester 😢\nGet excited for the next season!";
+
+// Error handeling
+"The device appears to be offline, please check the internet connectivity" = "The device appears to be offline, please check the internet connectivity";
+"Unauthorized to access the resource" = "Unauthorized to access the resource";
+"Resource not found" = "Resource not found";
+"Server error" = "Server error";
+"The accessed data is missing" = "The accessed data is missing";
+"Decoding of data failed" = "Decoding of data failed";
+"No Permission" = "No Permission";
+"Token not confirmed" = "Token not confirmed";
+"Token invalid" = "Token invalid";
+"Unknown error" = "Unknown error";
+"CampusOnline Error" = "CampusOnline Error";

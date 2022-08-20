@@ -1,0 +1,168 @@
+/* 
+  Localizable.strings
+  TUM Campus App
+
+  Created by Tim Gymnich on 24.5.20.
+  Copyright © 2020 TUM. All rights reserved.
+*/
+
+"No Permission" = "Keine Berechtigung";
+"Missing token" = "Token fehlt";
+"Invalid token" = "Ungültiges Token";
+"Token not confirmed" = "Token nicht bestätigt";
+"Unknown error" = "Unbekannter Error";
+"Make sure to enable the right permissions for your token." = "Stelle sicher, dass du die notwendigen Berechtigungen für dein Token aktiviert hast.";
+"Go to TUMOnline and confirm the token" = "Gehe auf TUMonline und bestätige dein Token";
+"Try creating a new token." = "Versuche ein neues Token zu erstellen.";
+"Continue" = "Weiter";
+"Login Error" = "Login Error";
+"OK" = "OK";
+"Authorization Error" = "Authorisierungs Error";
+"n/a" = "n/a";
+"Calendar" = "Kalender";
+"Events" = "Termine";
+"No Calendar Events" = "Keine Veranstaltungen";
+"Lectures" = "Vorlesungen";
+"Lecture" = "Vorlesung";
+"No Lectures" = "Keine Vorlesungen";
+"Grades" = "Noten";
+"No Grades" = "Keine Noten";
+"Tuition fees" = "Studienbeiträge";
+"Amount" = "Betrag";
+"Deadline" = "Frist";
+"Cafeterias" = "Mensa";
+"Not logged in" = "Nicht angemeldet";
+"Sign In" = "Anmelden";
+"Sign Out" = "Abmelden";
+"Study Rooms" = "Lernräume";
+"No Study Rooms" = "Keine Lernräume";
+"Free" = "Frei";
+"Occupied until" = "Besetzt bis";
+"Unknown" = "Unbekannt";
+"Useful Links" = "Nützliche Links";
+"No Links" = "Keine Links";
+"Cafeteria Map" = "Mensa Landkarte";
+"Search Rooms" = "Räume suchen";
+"Room Finder" = "Room Finder";
+"Unable to find room" = "Raum '%@' konnte nicht gefunden werden";
+"No Menu" = "Kein Menü";
+"List View" = "Listenansicht";
+"Jump to Today" = "Zum heutigen Tag springen";
+"GENERAL" = "ALLGEMEIN";
+"GET IN CONTACT" = "KONTAKTIERE UNS";
+"Use build-in Web View" = "Web View benutzen";
+"Join Beta" = "Werde Beta-Tester";
+"TUM Dev on Github" = "TUM Dev auf Github";
+"Cancel" = "Abbrechen";
+"News" = "Nachrichten";
+"Movies" = "Filme";
+"Profile" = "Profil";
+"Done" = "Fertig";
+"Places" = "Orte";
+
+// Login.storybroad
+
+"Welcome to TUM Campus App" = "Wilkommen zur TUM Campus App";
+"Enter your TUM ID to get started" = "Gib deine TUM ID ein";
+"go" = "go";
+"42" = "42";
+"tum" = "tum";
+"Continue 🎓" = "Weiter 🎓";
+"Continue without TUM ID" = "Weiter ohne TUM ID";
+"Log in on [TUMonline](https://campus.tum.de)" = "Melde dich auf [TUMonline](https://campus.tum.de) an";
+"Select **Token-Management**" = "Gehe auf **Token Verwaltung**";
+"Activate the newly created token and enable your desired permissions" = "Aktiviere den Token und stelle die benötigten Rechte ein";
+"Contact Support" = "Support kontaktieren";
+"Check Authorization" = "Token prüfen";
+"1" = "1";
+"2" = "2";
+"3" = "3";
+"Authorize Token" = "Token authorisieren";
+"Are you sure?" = "Sicher?";
+"Leaving now will invalidate the current token!" = "Wenn du jetzt die Seite verlässt wird der aktuelle Token ungültig!";
+"Leave" = "Verlassen";
+
+// CalendarView
+"Day" = "Tag";
+"Week" = "Woche";
+"Month" = "Monat";
+"Year" = "Jahr";
+"Today" = "Heute";
+"This Meeting" = "Dieser Termin";
+
+// PersonSearch
+"Unable to find person" = "Person kann nicht gefunden werden";
+"Person Search" = "Personensuche";
+
+// Tuition
+"Open Amount" = "Offener Betrag";
+
+// LectureSearch
+"Lecture Search" = "Vorlesungssuche";
+"Unable to find lecture" = "Vorlesung kann nicht gefunden werden";
+"Choose Speaker" = "Wähle Vortragenden";
+
+// Grades
+"Fetching Grades" = "Lade Noten";
+"Error while fetching Grades" = "Ein Fehler ist aufgetreten beim Laden der Noten";
+"Retry" = "Nochmals versuchen";
+"Cancel" = "Abbrechen";
+"Written" = "Schriftlich";
+"Graded" = "Beurteilt";
+"Written/Oral" = "Schriftlich/Mündlich";
+"Oral" = "Mündlich";
+"Unknown" = "Unbekannt";
+"Wintersemester" = "Wintersemester";
+"Summersemester" = "Sommersemester";
+
+// Lectures
+"Fetching details of lecture" = "Lade Details der Vorlesung";
+"Error while fetching details of lecture" = "Ein Fehler ist aufgetreten beim Laden der Vorlesung";
+"Fetching Lectures" = "Lade Vorlesungen";
+"Error while fetching Lectures" = "Ein Fehler ist aufgetreten beim Laden der Vorlesungen";
+"Basic lecture information" = "Allgemeine Vorlesungsinformationen";
+"Detailed lecture information" = "Detaillierte Vorlesungsinformationen";
+"Course Contents" = "Kursinhalte";
+"Course Objective" = "Kursziele";
+"Note" = "Sonstiges";
+"Lecture links" = "Vorlesungslinks";
+"Curriculum" = "Curriculum";
+"Dates" = "Daten";
+"Exam" = "Prüfung";
+"This Meeting" = "Dieses Treffen";
+"Lecture" = "Vorlesung";
+"Exercise" = "Übung";
+"Practical course" = "Praktikum";
+"Seminar" = "Seminar";
+"Lecture with integrated Exercises" = "Vorlesung mit integrierten Übungen";
+
+// StudyRoom
+"Free" = "Frei";
+"Occupied until" = "Besetzt bis";
+"Unknown" = "Unbekannt";
+
+//Roomfinder
+"Roomfinder" = "Raum Finder";
+"Building" = "Gebäude";
+"Room" = "Raum";
+"Detail" = "Detail";
+"Floor" = "Obergeschoß";
+
+//Map
+"Search ..." = "Suchen ...";
+
+//Movies
+"No more movies this semester 😢\nGet excited for the next season!" = "Keine Filme mehr dieses Semester 😢\nMacht euch ready für die nächste Saison!";
+
+// Error handeling
+"The device appears to be offline, please check the internet connectivity" = "Dieses Gerät scheint nicht mit dem Internet verbunden zu sein, Verbindung bitte überprüfen";
+"Unauthorized to access the resource" = "Nicht berechtiger Zugirff auf Resource";
+"Resource not found" = "Resource not found";
+"Server error" = "Server Fehler";
+"The accessed data is missing" = "Die zugegriffenen Daten sind nicht vorhanden";
+"Decoding of data failed" = "Dekodierung der Daten fehlgeschlagen";
+"No Permission" = "Keine Berechtigung";
+"Token not confirmed" = "Token nicht bestätigt";
+"Token invalid" = "Token invalide";
+"Unknown error" = "Unbekannter Fehler";
+"CampusOnline Error" = "CampusOnline Fehler";

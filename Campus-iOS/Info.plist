@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>3D</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>3D</string>
+				</array>
+			</dict>
+			<key>inverted</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>white</string>
+				</array>
+			</dict>
+			<key>outline</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>outline</string>
+				</array>
+			</dict>
+			<key>pride</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>pride</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string></string>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>
