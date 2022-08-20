@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ProfileView: View {
-    
+    @State var showActionSheet = false
+    @Environment(\.colorScheme) var colorScheme
     @ObservedObject var model: Model
     
     var body: some View {
