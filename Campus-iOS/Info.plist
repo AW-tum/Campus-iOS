@@ -13,11 +13,11 @@
 					<string>3D</string>
 				</array>
 			</dict>
-			<key>inverted</key>
+			<key>dark</key>
 			<dict>
 				<key>CFBundleIconFiles</key>
 				<array>
-					<string>white</string>
+					<string>dark</string>
 				</array>
 			</dict>
 			<key>outline</key>
@@ -34,6 +34,13 @@
 					<string>pride</string>
 				</array>
 			</dict>
+			<key>white</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>white</string>
+				</array>
+			</dict>
 		</dict>
 		<key>CFBundlePrimaryIcon</key>
 		<dict>
@@ -46,6 +53,13 @@
 			<key>UIPrerenderedIcon</key>
 			<false/>
 		</dict>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>tumBlue</string>
+		<key>UIImageName</key>
+		<string>logo-white</string>
 	</dict>
 	<key>UILaunchScreen</key>
 	<dict>
